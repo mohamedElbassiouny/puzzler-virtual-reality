@@ -1,40 +1,26 @@
-# puzzler-vr
+# Udacity_Puzzler_course4
 
-create an app for Android that puts the user into a scene that they can look around by moving their device.
+A puzzler project with udacity. learning environment, sounds, experience, ...
+start the project. replay the sequence of the orbs and finish the game. 
 
-Basically using the device as a window into a different world.
+## Used Software
 
-Obviously the camera will be locked in position but will be able to rotate on the spot.
+* Unity 5.3.f03
+* Google SDK 1.03
+* Udacity Puzzler Starter set
 
-ExampleCode
+## Installation
 
-You can get accelerometer values from Input.acceleration . For example:
+To install this project make the following:
 
- Vector3 vector =
-     new Vector3(Input.acceleration.x, Input.acceleration.y, Input.acceleration.z);
-Motivation
+* clone it
+* import the Google SDK 1.03
+* setup the android platform for building
 
-Action Scripts virtual reality glasses specs make moves when you look forward and look at the bottom of the stand
+# Licence
 
-Installation
+This project ist under the MIT license
 
-use the script and put in unity drag and drop to GoogleVR
+# Known Bugs
 
-Google VR SDK for Unity
-
-Enables Daydream and Cardboard app development in Unity.
-
-Copyright (c) 2016 Google Inc. All rights reserved.
-
-For updates, known issues, and upgrade instructions, see: https://developers.google.com/vr/unity/release-notes
-
-For first time users, see the Get Started Guides for Android Cardboard, Android Daydream, and iOS Cardboard.
-
-API Script FOR UNITY
-
-API SCRIPT
-
-Contributors
-Mohamed Elbassiouny gmail apat4e@gmail.com
-
-Mohamed Elbassiouny linkedin https://www.linkedin.com/in/mohamedelbassiouny/
+when the game starts and you stay in the room, the orbs will light up as expecting. But you cant finish even when you repeat the sequence.
